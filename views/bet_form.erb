@@ -1,0 +1,7 @@
+<h4> Make a bet for this round </h4>
+<%= session[:name] %> has $<%= session[:balance] %>
+	
+<form method = 'post' method = '/bet'>
+	<input type = 'text' name = 'bet'><br>
+	<input type = 'submit' value = 'Make bet' class = 'btn'>
+</form>
